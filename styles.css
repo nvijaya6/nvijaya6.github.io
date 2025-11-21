@@ -1,10 +1,10 @@
 body{
     --text: #1a1a1a;
-    --background: #fafafa;       /* cleaner white */
-    --primary: #7a0000;          /* softer maroon */
-    --secondary: #e8c547;        /* muted gold */
-    --accent: #d4a017;           /* darker gold for small highlights */
-    --light-gray: #f0f0f0;       /* for sections */
+    --background: #fafafa;       
+    --primary: #7a0000;         
+    --secondary: #e8c547;        
+    --accent: #d4a017;           
+    --light-gray: #f0f0f0;       
     margin: 0;
     background-color: var(--background);
     font-family: Arial, Helvetica, sans-serif;
@@ -90,3 +90,4 @@ footer{
     color:#fafafa;
     padding: 10px;
 }
+
