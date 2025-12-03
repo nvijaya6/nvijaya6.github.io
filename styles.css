@@ -155,6 +155,37 @@ table tr:nth-child(even){
     background-color: #f9f9f9;
 }
 
+form{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+input,select, textarea{
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:100%
+}
+button{
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #d4af37;
+    color:#000;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #b8922f;
+}
 footer{
     color: white;
     text-align: center;
