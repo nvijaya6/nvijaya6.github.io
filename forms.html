@@ -5,26 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Tactile Maps :: Feedback</title>
+    <meta name="description" content="Tactile maps created through 3D modeling, printing, 
+    and Braille integration to support accessible navigation and learning for visually-impaired users.">
 </head>
 <body>
+<div class="wrapper">
      <header>
         <img src="logo2.jpg" alt="Logo">
         <h1><a href="index.html">3D Tactile Maps</a></h1>
     </header>
     <nav>
-        <a href="index.html"><strong>Home</strong></a>
-        <a href="about.html"><strong>About</strong></a>
-        <a href="process.html"><strong>Process</strong></a>
-        <a href="gallery.html"><strong>Gallery</strong></a>
+        <div class="all-nav-links">
+            <a href="index.html"><strong>Home</strong></a>
+            <a href="about.html"><strong>About</strong></a>
+            <a href="process.html"><strong>Process</strong></a>
+            <a href="gallery.html"><strong>Gallery</strong></a>
+        </div>
     </nav>
     <main>
-        <h2>Feedback!</h2>
-        <p> Please feel free to leave a feedback below, and it will be helpful for us to improve further!</p>
+        <h2>Feedback</h2>
+        <p>Your feedback helps us improve the 3D tactile map project.<br>
+            Please share your thoughts below!
+        </p>
+        <form>
+            <label for="name">Preferred Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="affli">Are you affiliated with ASU?</label>
+            <select id="affli" name="affiliation" required>
+                <option value="">Select..</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="famil">Are you familiar with the tactile Maps?</label>
+            <select id="famil" name="familiarity" required>
+                <option value="">Select..</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="features">How clear were the raised features?</label>
+            <select id="features" name="raised_features" required>
+                <option value="">Select..</option>
+                <option value="very_clear">Very clear</option>
+                <option value="clear">Clear</option>
+                <option value="some_clear">Somewhat clear</option>
+                <option value="need_work">Needs Work, can be better</option>
+            </select>
+
+            <label for="readable">How readable was the Braille?</label>
+            <select id="readable" name="braille_readablity" required>
+                <option value="">Select..</option>
+                <option value="easy">Easy</option>
+                <option value="acceptable">Acceptable</option>
+                <option value="hard">Hard</option>
+                <option value="not_readable">Not Readable</option>
+            </select>
+
+            <label for="myComments">Comments or Suggestions?</label>
+            <textarea id="myComments" name="comments" rows="4" placeholder="Your Feedback..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </main>
 <footer>
     <p>Copyright &copy;<i>2025-3D Tactile Maps</i></p>
     <a href="mailto:narenvijayaragavan@gmail.com">narenvijayaragavan@gmail.com</a>
 </footer>
-   
+</div>
 </body>
 </html>
